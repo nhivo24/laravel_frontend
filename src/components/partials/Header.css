@@ -1,0 +1,151 @@
+nav{
+    position: fixed;
+    display: flex;
+    z-index: 99999;
+    height: 30px;
+    padding: 0px 15%;
+    line-height: 25px;
+    width: 70%;
+    background: #FF8000;
+    color: #eeeeee;
+    justify-content: space-between;
+
+}
+.nav-item-right .item{
+    margin-top: 0px;
+    display: flex;
+    width: 550px;
+    font-weight: 200;
+    justify-content: space-between;
+}
+.nav-item-right .item .item-account{
+    width: 250px;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.nav-item-right .item .item-auth{
+    width: 120px;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.nav-item-right .item .item-account button{
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.nav-item-right ul li{
+    list-style: none;
+}
+.nav-item-right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-top:0px;
+    padding: 35px 15% 5px 15%; 
+    display:  flex;
+    height: 80px;
+    background-color: white;
+}
+.logo img{
+    height: 80px;
+    width: 94.48px;
+}
+.logo-text p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #090;
+}
+.logo-text p:last-child{
+    color: #FF8000;
+}
+.menu{
+    background-color: #3daa12;
+    padding: 0px 15%;
+}
+.menu ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    line-height: 45px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.search-box input{
+    border:1px solid skyblue;
+    outline: none;
+    color: gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-box button{
+    cursor: pointer;
+    outline: none;
+    background: turquoise;
+    border:1px solid turquoise;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search-box button span{
+    color: white;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+    margin-left: 15%;
+    width: 60%;
+    height: 300px;
+
+}
+.order table {
+    border-collapse: collapse
+}
+.order .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}
+
+.order .table td,
+.order .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
+.order .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6
+}
+
+.order .table tbody+tbody {
+    border-top: 2px solid #dee2e6
+}
+
+.order .table-sm td,
+.order .table-sm th {
+    padding: .3rem
+}
+
+.order .table-bordered {
+    border: 1px solid #dee2e6
+}
+
+.order .table-bordered td,
+.order .table-bordered th {
+    border: 1px solid #dee2e6
+}
+
+.order .table-bordered thead td,
+.order .table-bordered thead th {
+    border-bottom-width: 2px
+}
